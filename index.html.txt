@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vida Sana Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f9f6;
+            color: #333;
+        }
+        header {
+            background-color: #43a047;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2e7d32;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2e7d32;
+        }
+        ul {
+            font-size: 18px;
+        }
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            background-color: #43a047;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vida Sana Online</h1>
+    <p>Comida saludable, económica y a domicilio para adultos mayores</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#pedidos">Pedidos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+    <div class="card">
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            Vida Sana Online es un negocio de comida saludable y de bajo costo,
+            enfocado en adultos mayores. Ofrecemos platillos nutritivos,
+            fáciles de digerir y con entrega a domicilio, para mejorar la
+            calidad de vida de nuestros clientes.
+        </p>
+    </div>
+</section>
+
+<section id="menu">
+    <div class="card">
+        <h2>Menú saludable</h2>
+        <ul>
+            <li>Verduras al vapor con pollo a la plancha</li>
+            <li>Sopa de lentejas nutritiva</li>
+            <li>Pescado al horno con arroz integral</li>
+            <li>Avena con frutas naturales</li>
+            <li>Jugos naturales sin azúcar</li>
+        </ul>
+    </div>
+</section>
+
+<section id="beneficios">
+    <div class="card">
+        <h2>Beneficios para adultos mayores</h2>
+        <p>
+            Nuestros alimentos son bajos en sal y grasa, con porciones
+            adecuadas y precios accesibles. Pensamos en la salud,
+            comodidad y economía de nuestros clientes.
+        </p>
+    </div>
+</section>
+
+<section id="pedidos">
+    <div class="card">
+        <h2>Pedidos en línea</h2>
+        <p>
+            Realiza tu pedido por teléfono o WhatsApp y recibe tus
+            alimentos en casa de manera rápida y segura.
+        </p>
+        <button>Hacer pedido</button>
+    </div>
+</section>
+
+<section id="contacto">
+    <div class="card">
+        <h2>Contacto</h2>
+        <p>
+            📞 Teléfono / WhatsApp: 123 456 7890<br>
+            📍 Servicio a domicilio<br>
+            ⏰ Horario: Lunes a Viernes, 9:00 am - 6:00 pm
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>Página web gratuita - Proyecto de negocio en línea</p>
+</footer>
+
+</body>
+</html>
